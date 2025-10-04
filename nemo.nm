@@ -1,0 +1,23 @@
+# sum of first 10 numbers
+
+sum = 0
+i = 0
+
+repeat 6 {
+
+    sum += i
+    i += 1
+
+    yell(i) # print
+
+}
+ 
+# like a function
+macro print_it {
+    yell('sum is', sum)
+}
+
+# calling macro
+use print_it
+
+#ask('press anything to exit ')
