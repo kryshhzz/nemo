@@ -33,8 +33,8 @@ Think of them as tiny functions with no input or output — a way to group and r
 ### ✨ Example: Simple Macro
 ```nemo
 macro greet {
-    yell("hello there 👋")
-    yell("welcome to nemo 🐟")
+    yell("hello there ")
+    yell("welcome to nemo ")
 }
 
 yell("starting program")
