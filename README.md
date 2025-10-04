@@ -26,19 +26,25 @@ yell("factorial of", n, "is", fact)
 ```
 
 ## 🧩 What is a Macro?
-Think of them as tiny functions with no input or output — a way to group and reuse behavior.
+
+In **nemo**, a macro is a **named block of code** that runs when the interpreter hits it.  
+- They don’t take arguments.  
+- They don’t return values.  
+
+Think of them as tiny functions with no input or output — a way to group and reuse behavior.  
+**Important:** To execute a macro, you must use the `use` keyword.
 
 ---
 
 ### ✨ Example: Simple Macro
 ```nemo
 macro greet {
-    yell("hello there ")
-    yell("welcome to nemo ")
+    yell("hello there")
+    yell("welcome to nemo")
 }
 
 yell("starting program")
-greet
+use greet
 yell("program continues")
 ```
 
